@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.flex {
+    display: flex;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.j-space-between {
+    justify-content: space-between;
+}
+
+.j-space-around {
+    justify-content: space-around;
+}
+
+.j-center {
+    justify-content: center;
+}
+
+.a-center {
+    align-items: center;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.gap5 {
+    gap: 5px;
+}
+
+.gap10 {
+    gap: 10px;
+}
+
+.gap15 {
+    gap: 15px;
+}
+
+.gap20 {
+    gap: 20px;
+}
+
+.gap25 {
+    gap: 25px;
+}
+
+.gap30 {
+    gap: 30px;
+}
+
+.gap40 {
+    gap: 40px;
+}
+
+body {
+    padding: 20px;
+}
+
+body, div, section, header, footer, main, ul {
+    display: flex;
+    flex-direction: column;
+}
+
+#root {
+    width: max-content;
+}
