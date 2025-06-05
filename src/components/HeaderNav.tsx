@@ -5,7 +5,7 @@ function HeaderNav() {
 	const location = useLocation()
 
 	return (
-		<header className='gap15 a-center'>
+		<header className='gap20 a-center'>
 			<h1>{location.pathname === '/' ? 'HRnet' : 'Current Employees'}</h1>
 			<nav>
 				<Link to={location.pathname === '/' ? '/employee-list' : '/'}>
