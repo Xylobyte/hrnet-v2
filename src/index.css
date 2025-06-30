@@ -65,11 +65,11 @@ body {
     padding: 20px;
 }
 
-body, div, section, header, footer, main, ul {
+body, div, section, header, footer, main, ul, nav, fieldset, form {
     display: flex;
     flex-direction: column;
 }
 
 #root {
-    width: max-content;
+    width: 100%;
 }

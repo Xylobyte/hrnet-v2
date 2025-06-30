@@ -1,13 +1,26 @@
 header {
+    width: 100%;
+
     h1 {
         background: #eaa74b;
         border-radius: 5px;
-        padding: 5px 20px;
+        padding: 10px 20px;
         width: 100%;
         text-align: center;
     }
 
+    nav {
+        color: #eaa74b;
+    }
+
     a {
         color: #eaa74b;
+        text-decoration: none;
+        opacity: 0.5;
+
+        &.active {
+            opacity: 1;
+            text-decoration: underline;
+        }
     }
 }

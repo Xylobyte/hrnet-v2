@@ -1,5 +1,5 @@
 import './HeaderNav.scss'
-import { Link, useLocation } from 'react-router'
+import { NavLink, useLocation } from 'react-router'
 
 function HeaderNav() {
 	const location = useLocation()
@@ -7,12 +7,9 @@ function HeaderNav() {
 	return (
 		<header className='gap20 a-center'>
 			<h1>{location.pathname === '/' ? 'HRnet' : 'Current Employees'}</h1>
-			<nav>
-				<Link to={location.pathname === '/' ? '/employee-list' : '/'}>
-					{location.pathname === '/'
-						? 'View Current Employees'
-						: 'Home'}
-				</Link>
+			<nav className='gap10 row a-center'>
+				<NavLink to='/'>Home</NavLink>|
+				<NavLink to='/employee-list'>Current Employees</NavLink>
 			</nav>
 		</header>
 	)
