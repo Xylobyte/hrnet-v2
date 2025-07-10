@@ -1,6 +1,8 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
+import 'react-datepicker/dist/react-datepicker.css'
+import 'simple-table-core/styles.css'
 import { Provider } from 'react-redux'
 import { store } from './app/store.ts'
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router'

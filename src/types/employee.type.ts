@@ -1,6 +1,5 @@
-import type { States } from './states.type.ts'
-
 export type Employee = {
+	guid: string
 	firstName: string
 	lastName: string
 	dateOfBirth: string
@@ -8,6 +7,6 @@ export type Employee = {
 	department: string
 	street: string
 	city: string
-	state: States
+	state: string
 	zipCode: number
 }

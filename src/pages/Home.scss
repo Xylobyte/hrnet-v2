@@ -9,22 +9,14 @@
         }
 
         @media (max-width: 690px) {
-            flex-direction: column;
+            > div {
+                flex-direction: column;
+            }
         }
     }
 
     input, select {
-        padding: 6px 10px;
-        border-radius: 5px;
-        border: 1px solid black;
-        outline: none;
         min-width: 250px;
-        font-size: 1rem;
-
-        &:focus {
-            outline: 2px solid #eaa74b;
-            border-color: transparent;
-        }
     }
 
     label {
@@ -45,6 +37,11 @@
 
         &:active {
             opacity: 0.6;
+        }
+
+        &:disabled {
+            opacity: 0.4;
+            cursor: not-allowed;
         }
     }
 }

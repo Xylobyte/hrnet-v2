@@ -1,8 +1,7 @@
-// reactSelectStyles.ts
-// reactSelectStyles.ts
 import type { StylesConfig } from 'react-select'
 
-const rsStyles: StylesConfig = {
+/* eslint-disable  @typescript-eslint/no-explicit-any */
+const rsStyles: StylesConfig<any> = {
 	control: (base, state) => ({
 		...base,
 		padding: '0px',
@@ -13,13 +12,17 @@ const rsStyles: StylesConfig = {
 		fontSize: '1rem',
 		minHeight: 'unset',
 		height: 'auto',
-		'&:hover': {
+		':hover': {
 			borderColor: state.isFocused ? 'transparent' : 'black',
 		},
 	}),
 	indicatorsContainer: base => ({
 		...base,
 		padding: '0px',
+	}),
+	dropdownIndicator: base => ({
+		...base,
+		padding: '0px 5px',
 	}),
 	menu: base => ({
 		...base,
@@ -33,7 +36,7 @@ const rsStyles: StylesConfig = {
 		color: 'black',
 		padding: '10px',
 		cursor: 'pointer',
-		'&:active': {
+		':active': {
 			backgroundColor: '#eaa74b44',
 		},
 	}),
