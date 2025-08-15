@@ -11,7 +11,7 @@
     },
     "dependencies": {
         "@reduxjs/toolkit": "^2.8.2",
-        "@xylobyte/hrnet-react-modal": "^1.0.1",
+        "@xylobyte/hrnet-react-modal": "^1.0.2",
         "react": "^19.1.1",
         "react-datepicker": "^8.5.0",
         "react-dom": "^19.1.1",

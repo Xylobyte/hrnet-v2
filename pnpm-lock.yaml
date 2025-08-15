@@ -12,8 +12,8 @@ importers:
         specifier: ^2.8.2
         version: 2.8.2(react-redux@9.2.0(@types/react@19.1.10)(react@19.1.1)(redux@5.0.1))(react@19.1.1)
       '@xylobyte/hrnet-react-modal':
-        specifier: ^1.0.1
-        version: 1.0.1(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
+        specifier: ^1.0.2
+        version: 1.0.2(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
       react:
         specifier: ^19.1.1
         version: 19.1.1
@@ -784,8 +784,8 @@ packages:
     peerDependencies:
       vite: ^4 || ^5 || ^6 || ^7
 
-  '@xylobyte/hrnet-react-modal@1.0.1':
-    resolution: {integrity: sha512-jYq1RuVc0Fkx8bLw0gV8wd05SMidVNNLMjdLfnds09BUM4Bi/FEDFyuNfboTVo0cKIo7vzMVZszJ0iUMA/mlzg==}
+  '@xylobyte/hrnet-react-modal@1.0.2':
+    resolution: {integrity: sha512-PgQbt5W7Hw+Sv4LV3yTTFVnikQ8DWSwzt4Um0HFUaq1f91WVolimlr4tVRKW4hhXI5lCUhv6U9+bhJeuHgfAtg==}
     peerDependencies:
       react: ^19.0.0
       react-dom: ^19.0.0
@@ -2105,7 +2105,7 @@ snapshots:
     transitivePeerDependencies:
       - '@swc/helpers'
 
-  '@xylobyte/hrnet-react-modal@1.0.1(react-dom@19.1.1(react@19.1.1))(react@19.1.1)':
+  '@xylobyte/hrnet-react-modal@1.0.2(react-dom@19.1.1(react@19.1.1))(react@19.1.1)':
     dependencies:
       react: 19.1.1
       react-dom: 19.1.1(react@19.1.1)
