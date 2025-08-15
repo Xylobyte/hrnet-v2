@@ -198,7 +198,7 @@ function Home() {
 					disabled={
 						firstName.length < 2 ||
 						lastName.length < 2 ||
-						zipCode.length < 5 ||
+						zipCode.length !== 6 ||
 						street.length < 3 ||
 						city.length < 2
 					}

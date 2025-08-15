@@ -29,7 +29,7 @@ function EmployeeList() {
 		<div className='employee-list flex gap10'>
 			<div className='head-actions flex row j-space-between'>
 				<div className='flex row gap5 a-center'>
-					Show
+					<label htmlFor='max-rows'>Show</label>
 					<select
 						name='max-rows'
 						id='max-rows'
@@ -41,7 +41,7 @@ function EmployeeList() {
 						<option value='50'>50</option>
 						<option value='100'>100</option>
 					</select>
-					entries
+					<label>entries</label>
 				</div>
 
 				<input type='search' placeholder='Search...' value={search} onChange={e => setSearch(e.target.value)} />
